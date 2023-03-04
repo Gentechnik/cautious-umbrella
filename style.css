@@ -1,0 +1,187 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Tilt Neon', cursive;
+font-family: 'Varela Round', sans-serif; */
+
+body {
+  font-family: "Tilt Neon";
+  margin: 0;
+}
+
+/* Main Nav */
+
+ul.main-navigation {
+  /* border: 2px solid red; */
+  background-color: rgb(83, 137, 255);
+  display: flex;
+  position: sticky;
+  padding: 20px 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+ul.main-navigation li {
+  list-style: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 15px 2px;
+  align-items: center;
+}
+
+ul.main-navigation li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 40px;
+  margin: auto 15px 15px 15px;
+  border-radius: 50px;
+  font-size: 2em;
+}
+
+ul.main-navigation li a:hover {
+  color: rgb(83, 137, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+a.page-circle {
+  border: 1px solid white;
+  list-style: none;
+  padding: 15px 40px;
+  margin: 2px;
+  align-items: center;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Main Header */
+
+.main-header {
+  /* border: 2px solid red; */
+  font-family: "Varela Round", sans-serif;
+  min-height: 100vh;
+  background-image: url(./images/pawel-czerwinski-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 300px 0 0 150px;
+}
+
+.main-header h1 {
+  font-size: 60px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.main-header p {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px gray;
+}
+
+/* Main Project */
+
+.main-showcase {
+  /* border: 3px solid red; */
+  background-color: rgb(202, 219, 255);
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px rgb(160, 210, 255);
+}
+
+.main-showcase h2 {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 0 0 200px 200px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.main-showcase-profile {
+  /* border: 1px solid red; */
+  width: 400px;
+  margin: 100px 0px 100px 0px;
+  border-radius: 100%;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.about-page p {
+  /* border: 1px solid red; */
+  width: 700px;
+  margin: 0px auto;
+  padding: 40px;
+  font-size: 35px;
+  /* font-weight: bold; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px 50px 0 0;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.showcase-content-container {
+  /* border: 3px solid rgb(0, 255, 55); */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.showcase-content-img img {
+  height: 40vh;
+  border-radius: 30px;
+  padding: 0px 0px;
+  margin: 20px 20px 20px 100px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.showcase-content-text {
+  /* border: 2px solid blue; */
+  padding: 50px 50px;
+  margin: 10px 100px 10px 10px;
+}
+
+.showcase-content-text iframe {
+  border-radius: 30px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+/* Main Footer */
+
+.main-footer {
+  text-align: center;
+  min-height: 10vh;
+  margin: 0;
+}
+
+.main-footer div {
+  background-color: rgb(83, 137, 255);
+  min-height: 10vh;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer h2 {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(160, 210, 255);
+  margin: 0;
+  padding: 20px 0 0 5px;
+  font-size: 40px;
+}
+
+.main-footer p {
+  margin: 0;
+  padding: 20px 0px 0px 10px;
+}
+
+.main-footer p a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 55px;
+  padding: 15px 35px;
+  margin: auto 15px 15px 15px;
+  border-radius: 60px;
+}
+
+.main-footer p a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(83, 137, 255);
+  border-radius: 60px;
+}
