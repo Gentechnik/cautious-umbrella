@@ -130,6 +130,13 @@ a.page-circle {
   padding: 0px 0px;
   margin: 20px 20px 20px 100px;
   box-shadow: 2px 2px 3px gray;
+  opacity: 0.85;
+  transition: opacity height 600ms ease-out 100ms;
+}
+
+.showcase-content-img img:hover {
+  opacity: 1;
+  transform: scale(1.01)
 }
 
 .showcase-content-text {
@@ -167,6 +174,7 @@ a.page-circle {
 }
 
 .main-footer p {
+  /* border: 1px solid red; */
   margin: 0;
   padding: 20px 0px 0px 10px;
 }
