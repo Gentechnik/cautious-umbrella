@@ -78,6 +78,7 @@ a.page-circle {
 
 /* Main Project */
 
+/* Container */
 .main-showcase {
   /* border: 3px solid red; */
   background-color: rgb(202, 219, 255);
@@ -125,6 +126,7 @@ a.page-circle {
 }
 
 .showcase-content-img img {
+  /* border: 1px solid red; */
   height: 40vh;
   border-radius: 30px;
   padding: 0px 0px;
@@ -136,7 +138,7 @@ a.page-circle {
 
 .showcase-content-img img:hover {
   opacity: 1;
-  transform: scale(1.01)
+  transform: scale(1.01);
 }
 
 .showcase-content-text {
@@ -193,3 +195,28 @@ a.page-circle {
   color: rgb(83, 137, 255);
   border-radius: 60px;
 }
+
+/* Mini-Game on about page */
+/* 
+.breakout-paragraph p {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(160, 210, 255);
+  margin: 0;
+  padding: 20px 0 0 5px;
+  font-size: 40px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 0 0 200px 200px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+canvas {
+  background: rgb(160, 210, 255);
+  display: block;
+  margin: 0px auto;
+  padding: 10px 0px 0px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+} */
